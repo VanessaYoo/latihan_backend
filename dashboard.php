@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (!isset($_SESSION['username'])) { //apakah ada session tersebut dari login
+if (!isset($_SESSION['username'])) { //apakah ada session tersebut dari login igykjhb
     header("Location: login.php");
 }
 ?>
