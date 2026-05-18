@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (!isset($_SESSION['username'])) { //apakah ada session tersebut dari login
+if (!isset($_SESSION['username'])) { //apakah ada session tersebut dari login tes
     header("Location: login.php");
 }
 ?>
@@ -13,7 +13,7 @@ if (!isset($_SESSION['username'])) { //apakah ada session tersebut dari login
     <title>Dashboard</title>
 </head>
 
-<body>
+<body>hbhbh
     <h2>Dashboard</h2>
     <p>Selamat datang, <?php echo $_SESSION["username"]; ?></p>
     <a href="logout.php">Logout</a>
